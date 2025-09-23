@@ -1,2 +1,2 @@
-A blog about software architecture topics and working on AI on edge devices.
-My first blog to write about topics that interest me. If no one ever reads, no problem. :D
+A blog about software architecture topics and real-time machine vision projects for sailboats ⛵.
+This is my first blog. If no one ever reads, no problem. I still had fun. :D

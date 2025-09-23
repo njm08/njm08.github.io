@@ -1,4 +1,4 @@
-# Works on my Machine Part 1
+# Works on my Machine - Part 1
 
 ## Introduction
 
