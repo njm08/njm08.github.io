@@ -9,7 +9,7 @@ The hard part is maintaining and documenting the infrastructure. As projects gro
 - How do we get our software running on our edge device without spending a week fixing issues?
 - How do we prevent solutions from only working on our machine?
 
-![Works on my Machine](https://github.com/njm08/njm08.github.io/blob/main/docs/assets/images/works_on_my_machine.jpg)
+![Works on my Machine](/docs/assets/images/works_on_my_machine.jpg)
 
 ### Story time
 
@@ -23,7 +23,7 @@ When it finally does run we are so happy but we forgot about all the steps we di
 
 This blog introduces best practices in order to speed up and be able to reproduce the set-up of the development environment.
 This is based on my experience working on larger embedded software projects.
-These tips are not revolutionary. However, your project team will greatly benefit from them.\
+These tips are not revolutionary. However, your project team will greatly benefit from them.
 
 ## Best practices
 
@@ -32,9 +32,9 @@ These tips are not revolutionary. However, your project team will greatly benefi
 Document every setup step, as if you were explaining it to someone who has never used a computer.
 We often leave out little steps that we think are trivial. No steps are trivial!
 It often feels stupid to write down every single little detail, but others will often get stuck on these little details.\
-__Pro Tip:__ Use GIFs. Everyone loves GIFs and they show exactly where to click and what should happen.\
+__Pro Tip:__ Use GIFs. Everyone loves GIFs and they show exactly where to click and what should happen.
 
-![Gif showing how to use VS Tasks to build the project.](/assets/images/vs_task.gif)
+![Gif showing how to use VS Tasks to build the project.](/docs/assets/images/vs_task.gif)
 
 ### Scripting is Documentation
 
