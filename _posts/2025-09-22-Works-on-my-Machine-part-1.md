@@ -9,7 +9,7 @@ The hard part is maintaining and documenting a good infrastructure. As projects 
 - How do we get our software running on our edge device without spending a week fixing issues?
 - How do we prevent solutions from only working on our machine?
 
-![Works on my Machine](../res/works_on_my_machine.jpg)
+![Works on my Machine](njm08.github.io/docs/assets/images/works_on_my_machine.jpg)
 
 ### Story time
 

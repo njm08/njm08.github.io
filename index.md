@@ -1,1 +1,1 @@
-This is the homepage. The homepage needs content. :D
+A blog about software architecture topics mixed up with AI on edge devices for sailboats.
