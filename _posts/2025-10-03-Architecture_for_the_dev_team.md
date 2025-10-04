@@ -4,7 +4,6 @@
 
 Unfortunately, there is no blueprint on how to document architecture. If so, we would just all do it the same way.
 Too often the architecture documentation is not actually read, used or understood by anyone.
-
 This can lead to a slow erosion of the software, by more and more spaghetti finding its way into the code.  
 
 The most common problems I see, when documenting code are:
