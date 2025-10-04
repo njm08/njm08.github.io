@@ -23,7 +23,6 @@ The most common problems I see, when documenting code are:
 
 Simple tips to help create a architecture documentation that the development team benefits from.
 
-
 ## Architecture for the development team
 
 The architecture is not for audits, management or future historians. It is for the people who are building and maintaining the system now. Write it for the developing team. Use the documentation when talking about software all the time.
@@ -32,7 +31,8 @@ The architecture is not for audits, management or future historians. It is for t
 
 The naming in the documentation must match the naming of files and folders in the code.
 This way your architecture is found in the actual product (the code).
-Everyone __speaks the same language__ reducing confusion and expensive misunderstandings. This language should be found in the 
+Everyone __speaks the same language__ reducing confusion and expensive misunderstandings. This language should be used in meetings, in the code,
+and in your nice architecture pictures. 
 
 ## Document important decisions
 
@@ -42,7 +42,9 @@ A year later some topics might come up again and you will probably have forgotte
 ## Balancing just enough
 
 The goal is not to document everything. Document just enough for developers to understand the building blocks and how they work together.
-Some parts might need more detailed documentation. If you are having trouble explaining certain components, it is time for a more detailed documentation.
+Be careful when documenting in too much detail. The documentation is more likely to get outdated quicker.\
+_UML_ is great, since it is a standardized way to document architecture. However, this is also its weakness. Its easy to forget what the different
+arrows mean, if you don't use it regularly. It is also very detailed and quickly does not match the code anymore.\
 Just remember, the documentation is to help your team understand the system.
 
 ## Collaborative and living document
@@ -50,17 +52,16 @@ Just remember, the documentation is to help your team understand the system.
 The architecture documentation must evolve with the code. It is a living part of a product, just like the code.
 It should be owned and updated by the team.
 
+## Visual and clear
 
+- Draw simple diagrams. Not every part of the software needs to be in the diagram.\
+- Every line and every box should be labeled. If a boxes have different colors, a legend needs to explain these colors.
+- Use hierarchical diagrams. Start from a top level view and then zoom into each of the components.
 
-UML is great but quickly outdated and often not understood.
-Do not go into too much detail. -->outdated -->  This can be found in the code.
-Speek same language. Language should be found in pictures, in code and in daily meetings.
+## C4 and arc42
 
-Architektur versionieren, maschinenlesbar!
-
-references:
-arc42
-c4
+The [C4 model](https://c4model.com) offers a great visual guideline and the [arc42 template](https://arc42.org/overview) a textual guideline.
+Use these two together and adapt them for your project.
 
 ## Summary
 
