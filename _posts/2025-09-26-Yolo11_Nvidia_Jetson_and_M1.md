@@ -1,6 +1,7 @@
 # YOLO11 Inference on MacBook Air M1 vs. NVIDIA Jetson Orin Nano
 
-## Intro
+## Introduction
+
 YOLO (You Only Look Once) is a real-time object detection algorithm based on convolutional neural networks.
 I am using in my project to detect maritime objects such as boats, buoys, lighthouses and windfarms.
 The NVIDIA Jetson is an embedded computing board specialized for accelerating neural networks.
