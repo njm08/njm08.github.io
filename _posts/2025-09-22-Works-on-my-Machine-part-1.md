@@ -34,7 +34,8 @@ We often leave out little steps that we think are trivial. No steps are trivial!
 It often feels stupid to write down every single little detail, but others will often get stuck on these little details.\
 __Pro Tip:__ Use GIFs. Everyone loves GIFs and they show exactly where to click and what should happen.
 
-![Gif showing how to use VS Tasks to build the project.](/docs/assets/images/vs_task.gif)
+![Gif showing how to use VS Tasks to build the project.](/docs/assets/images/vs_task.gif)\
+*Gif showing how to use VS Tasks to build the project*
 
 ### Scripting is Documentation
 
