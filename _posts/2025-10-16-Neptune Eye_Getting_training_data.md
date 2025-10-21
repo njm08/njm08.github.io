@@ -1,11 +1,17 @@
-# Hoisting the sails to get data
+# Neptune's Eye: Hoisting the sails to get data
 
 ## Introduction
 
+Introducing __Neptune's Eye__. This is the beginning of a new open source project. The goal is to develop a real-time object detection system that detects hazards such as other boats, buoys or fishing traps for safer sailing.\
+
+__Step 1: Collecting Data__
 When building an object detection model, running the actual training is the easy part. The hard part is acquiring a
 dataset that fits your application. The quality of the data influences the quality of the detection significantly.
 Finding a dataset for cats, dogs or cars is easy. But finding data for detecting buoys, boats, fishing traps and other
 hazards that we run into during sailing is not trivial.
+
+![Neptune Eye](/docs/assets/images/neptune_eye_ai.png)\
+*Neptune's Eye AI generated image*
 
 ## Goal
 
@@ -22,10 +28,17 @@ probably be necessary in the future.\
 The Yolo11 object detection was initially trained on the _COCO_ dataset. Since the detection of boats already worked very well with this pretrained model, I decided to take boat images from the _COCO_ dataset. I manually went through the first
 couple of hundred of boat images to find those that match the application best. For Neptune Eye, boats will usually appear far away and be quite small. There are hopefully no close ups of boats, since this means a crash.
 
+![COCO Boat 1](/docs/assets/images/coco_boat_1.jpg)![COCO Boat 2](/docs/assets/images/coco_boat_2.jpg)\
+*COCO images of boats vary. Close-up on land or far away on the horizon*
+
 ### Hoisting the sails
 
-The best data however, is the one taken directly from the boat. While sailing in October I took as many pictures of buoys and sailboats that I could get in a 4 days of sailing. This resulted in about 100 images of mostly buoys.
+The best data however, is the one taken directly from the boat. While sailing in October I took as many pictures of buoys and sailboats that I could get in a 4 days of sailing. This resulted in about 60 images of mostly buoys.
 I used Label Studio to easily label these images manually. This worked fine for this small dataset. In the future I plan on using semi-automated labelling.
+
+![Buoy](/docs/assets/images/buoy_label_studio.png)![Sailboat](/docs/assets/images/sailboat_label_studio.png)\
+*Buoy and sailboat image taken from sailboat*
+
 
 ## Result
 

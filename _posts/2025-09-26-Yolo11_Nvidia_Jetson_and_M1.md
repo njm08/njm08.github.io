@@ -7,7 +7,8 @@ I am using in my project to detect maritime objects such as boats, buoys, lighth
 The NVIDIA Jetson is an embedded computing board specialized for accelerating neural networks.
 It used alot in robot applications for real-time inference. With 300€ it is quite cheap for its power and is well documentated.
 
-![YOLO detecting a Sailboat](/docs/assets/images/yolo_boat.gif)
+![YOLO detecting a Sailboat](/docs/assets/images/yolo_boat.gif)\
+*YOLO model detecting a sailboat*
 
 ## Goal
 
@@ -28,8 +29,11 @@ For the Jetson Nano there are many tips and tricks to [improve the performance](
 First things first: This is not a fair fight! Running a Deep Neural Network (short __DNN__) on a standard laptop versus on a dedicated platform for accelerating neural networks.
 The following measurements show the average inference times.
 
-![YOLO11N Inference Time](/docs/assets/images/yolo11n_time.png)
-![YOLO11S Inference Time](/docs/assets/images/yolo11s_time.png)
+![YOLO11N Inference Time](/docs/assets/images/yolo11n_time.png)\
+*YOLO11 Nano Inferenece Time*\
+
+![YOLO11S Inference Time](/docs/assets/images/yolo11s_time.png)\
+*YOLO11 Small Inferenece Time*
 
 __Key take-aways:__
 

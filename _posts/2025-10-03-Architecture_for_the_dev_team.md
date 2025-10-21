@@ -31,7 +31,7 @@ The architecture is not for audits, management or future historians. It is for t
 The naming in the documentation must match the naming of files and folders in the code.
 This way your architecture is found in the actual product (the code).
 Everyone __speaks the same language__ reducing confusion and expensive misunderstandings. This language should be used in meetings, in the code,
-and in your nice architecture pictures. 
+and in your nice architecture pictures.
 
 ## Document important decisions
 
