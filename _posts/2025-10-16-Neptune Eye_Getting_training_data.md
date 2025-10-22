@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Introducing __Neptune's Eye__. This is the beginning of a new open source project. The goal is to develop a real-time object detection system that detects hazards such as other boats, buoys or fishing traps for safer sailing.\
+Introducing __Neptune's Eye__. This is the beginning of a new open source project. The goal is to develop a real-time object detection system that detects hazards such as other boats, buoys or fishing traps for safer sailing.
 
 __Step 1: Collecting Data__
 When building an object detection model, running the actual training is the easy part. The hard part is acquiring a
@@ -36,7 +36,7 @@ couple of hundred of boat images to find those that match the application best. 
 The best data however, is the one taken directly from the boat. While sailing in October I took as many pictures of buoys and sailboats that I could get in a 4 days of sailing. This resulted in about 60 images of mostly buoys.
 I used Label Studio to easily label these images manually. This worked fine for this small dataset. In the future I plan on using semi-automated labelling.
 
-![Buoy](/docs/assets/images/buoy_label_studio.png)![Sailboat](/docs/assets/images/sailboat_label_studio.png)\
+![Buoy](/docs/assets/images/buoy_label_studio.png) ![Sailboat](/docs/assets/images/sailboat_label_studio.png)\
 *Buoy and sailboat image taken from sailboat*
 
 
@@ -49,3 +49,4 @@ As a result I created a data set with about 900 boat and 300 buoy images. I only
 Collecting data is a more challenging and time consuming task. Since it is winter and the boat is on land
 I will not be able to collect more _real_ data until next spring. For getting more images of the tricky fishing traps
 I will need to be more creative. Scraping the internet or AI generated images for example.
+The dataset is currently not well balanced. Lets see how it works out in the next blog.
